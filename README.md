@@ -30,3 +30,14 @@ root@kali:~# ^C
 ```
 
 ##### [Basic_Tool_._NetCat](https://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/)
+
+##### Basic_Tool_._Ping
+
+```
+# ping google.com
+# ping -c 4 google.com
+# ping 172.30.42.255 <-- broadcast address [meaning sending packets to all host on the same network].
+# ping -p ffaa 172.30.42.1 <-- defining pattern as hex decemal value
+# ping -p ffaa -s 800 172.30.42.1 <-- [-s 800] // sending 800bytes each packets
+# ping -p ffaa -s 8000 172.30.42.1 <-- sending larger packets // usefull when sending larger data || is system alive or not
+```
