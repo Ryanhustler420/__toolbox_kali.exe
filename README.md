@@ -28,3 +28,5 @@ root@kali:~# ^C
 
 
 ```
+
+##### [Basic_Tool_._NetCat](https://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/)
