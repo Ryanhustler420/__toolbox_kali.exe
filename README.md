@@ -42,7 +42,7 @@ root@kali:~# ^C
 # ping -p ffaa -s 8000 172.30.42.1 <-- sending larger packets // usefull when sending larger data || is system alive or not
 ```
 
-##### useful_Browser_Extentions
+##### Useful_Browser_Extentions
 
 > Note: use **firefox** instead of **chorme** because chorme won't allow you to do bad things! but firefox does.
 
@@ -50,3 +50,13 @@ root@kali:~# ^C
 - passiveRecon <-- help us to investigate to our target without an actuall intraction the target itself.
 - groundSpeed <-- help us for web testing
 - HackBar <-- help us in testing sql injections. XSS holes and site security
+
+##### Useful_Web_Sites
+
+> [IP Calculator / IP Subnetting](http://jodies.de/ipcalc)
+> [Geektools](http://www.geektools.com/) <-- allow us to do trace route || also do 'WHOIS'
+> [Geo IP Tool](https://geoiptool.com/)
+> [EXPLOIT DATABASE](https://www.exploit-db.com/)
+> [WAY BACK MACHINE](https://archive.org/web/)
+
+
