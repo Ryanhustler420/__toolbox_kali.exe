@@ -41,3 +41,12 @@ root@kali:~# ^C
 # ping -p ffaa -s 800 172.30.42.1 <-- [-s 800] // sending 800bytes each packets
 # ping -p ffaa -s 8000 172.30.42.1 <-- sending larger packets // usefull when sending larger data || is system alive or not
 ```
+
+##### useful_Browser_Extentions
+
+> Note: use **firefox** instead of **chorme** because chorme won't allow you to do bad things! but firefox does.
+
+- Temperdata <-- help us to capture messages which is going back and forth withen the server
+- passiveRecon <-- help us to investigate to our target without an actuall intraction the target itself.
+- groundSpeed <-- help us for web testing
+- HackBar <-- help us in testing sql injections. XSS holes and site security
