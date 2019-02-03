@@ -118,4 +118,8 @@ dig @4.2.2.1 mx.microsoft.com
 nslookup microsoft.com 4.2.2.1
 ```
 
+##### Using_Web-Based_Tools
 
+> [MX ToolBox](https://mxtoolbox.com/)
+> [Web DNS Tools](http://www.webdnstools.com/dnstools/dns-lookup)
+> [G Suite Toolbox](https://toolbox.googleapps.com/apps/main/)
