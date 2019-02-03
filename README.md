@@ -59,4 +59,6 @@ root@kali:~# ^C
 > [EXPLOIT DATABASE](https://www.exploit-db.com/)
 > [WAY BACK MACHINE](https://archive.org/web/)
 
+##### Information_Storage_Tool_For_Kali
 
+> casefile <-- for visualization information for better analysis
