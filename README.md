@@ -123,3 +123,7 @@ nslookup microsoft.com 4.2.2.1
 > [MX ToolBox](https://mxtoolbox.com/)
 > [Web DNS Tools](http://www.webdnstools.com/dnstools/dns-lookup)
 > [G Suite Toolbox](https://toolbox.googleapps.com/apps/main/)
+
+##### Passive_Recon
+
+> Passive Recon is a plugin on firefox as an add-on for complete DNS Lookup (just right click on any href) and see the entire result **check this**
