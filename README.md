@@ -127,3 +127,14 @@ nslookup microsoft.com 4.2.2.1
 ##### Passive_Recon
 
 > Passive Recon is a plugin on firefox as an add-on for complete DNS Lookup (just right click on any href) and see the entire result **check this**
+
+
+##### Passive_Fingerprinting
+
+> p0f
+
+> open some website and let the 'p04' cammand run bhind the browser
+
+> came back and see the terminal
+
+**Note** - the cammand captured the packets when we surff the web
