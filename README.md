@@ -75,3 +75,31 @@ inurl: ""
 intext: ""
 intitle: ""
 ```
+
+##### Dig
+
+> Dig Cammand use for lookup information of any host. by using this cammand you will get a "CNAME" (
+  A canonical name is the properly denoted host name of a computer or network server. A CNAME specifies an alias or nickname for a canonical host name record in a domain name system (DNS) database. In programming, the term "canonical" means "according to the rules."
+)
+
+``Example``
+
+> dig www.facebook.com
+
+``output``
+
+```
+CNAME star-mini.c10r.facebook.com 
+```
+
+> match the IP Corrosponding to that IP using
+
+``
+ping facebook.com
+``
+
+Can use different DNS server Like
+
+```
+dig @4.2.2.1 mx.microsoft.com
+```
