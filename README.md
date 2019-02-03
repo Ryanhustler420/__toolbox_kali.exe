@@ -62,3 +62,16 @@ root@kali:~# ^C
 ##### Information_Storage_Tool_For_Kali
 
 > casefile <-- for visualization information for better analysis
+
+##### Google_Hacking
+
+> Google hacking is use for **nero** the search result! Google_Hacking Doesn't mean you will break google server and do what ever you want to do!. It usage the specific keyword to nero the result of searches
+
+``Example``
+
+```
+site:microsoft.com filetype:xls windows 10
+inurl: ""
+intext: ""
+intitle: ""
+```
