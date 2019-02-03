@@ -103,3 +103,19 @@ Can use different DNS server Like
 ```
 dig @4.2.2.1 mx.microsoft.com
 ```
+
+##### Using_Host_NsLookup
+
+`` host www.microsoft.com ``
+
+> host is use for quick lookup for me if all i looking for is either 'A' record or 'ptr' record. another utility is
+
+``nslookup www.microsoft.com``
+
+> but you can do more complex things using ``nslookup`` for example
+
+```
+nslookup microsoft.com 4.2.2.1
+```
+
+
