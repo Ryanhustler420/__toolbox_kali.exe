@@ -205,3 +205,20 @@ ctrl + ] -> exit
 ```
 nc -l 192.168.86.34 21
 ```
+
+##### Basic_Protocol_Interaction_-_HTTP
+
+```
+  nc 192.168.86.34 80
+  HEAD / HTTP/1.1
+  Host: 192.168.86.34
+```
+
+``or``
+
+```
+  nc 192.168.86.34 80
+  GET / HTTP/1.1
+  Host: 192.168.86.34
+```
+> Return the html code in terminal
