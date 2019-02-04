@@ -179,7 +179,7 @@ tcpdump -v -i eth0 port 443
 
 ```
 tcpdump -s 0 -w  output.pcap
-``
+```
 
 > `-s 0` meaning capture everything
 
@@ -188,5 +188,20 @@ you can use Ctrl + C to kill the terminal after few second of running the above 
 > Now open wireshark software with that capture packet `out.pcap` open it.
 
 
+##### Banner_Grabbing
 
+> able to intract with sevices. because you wanna pull out the banners which application provides. banners will give you the information about a specific appication. that is running on a specific port . and this may give you version information
 
+```
+telnet 192.168.86.34 21
+```
+
+```
+ctrl + ] -> exit 
+```
+
+> netcat is good for listening and UDP Protocal, this below cammand will do exactily the same this what telnet did. but more powerfull than `telnet`
+
+```
+nc -l 192.168.86.34 21
+```
