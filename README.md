@@ -138,3 +138,36 @@ nslookup microsoft.com 4.2.2.1
 > came back and see the terminal
 
 **Note** - the cammand captured the packets when we surff the web
+
+
+##### Packet_Captures
+
+> how to actually capture packets
+
+```
+tcpdump 
+```
+> captures all the packet which coming and going through the network card of the current machine this happens because the network card is in promiscuous mode. which not only track outgoing packets but incoming too.
+
+> you can specifically capture your desire interface by running this cammand
+
+```
+tcpdump -i eth0 host 172.30.42.1
+```
+
+> 172.30.42.1 is your gayway address aka router
+
+```
+tcpdump -i eth0 port 443
+```
+
+> in this example we can see the https traffic because this is come across port 443.
+
+```
+tcpdump -v -i eth0 port 443
+```
+
+> by using flag -v you can see more information about each traffic
+
+**NOTE** > by using this cammand you can see the headers information only
+
