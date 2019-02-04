@@ -171,3 +171,22 @@ tcpdump -v -i eth0 port 443
 
 **NOTE** > by using this cammand you can see the headers information only
 
+##### Using_Wireshark
+
+> you can capture the packets which is passing through NIC but can't do analysis on that data... . so you can use different software for that
+
+> first capture the data 
+
+```
+tcpdump -s 0 -w  output.pcap
+``
+
+> `-s 0` meaning capture everything
+
+you can use Ctrl + C to kill the terminal after few second of running the above command
+
+> Now open wireshark software with that capture packet `out.pcap` open it.
+
+
+
+
