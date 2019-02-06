@@ -222,3 +222,18 @@ nc -l 192.168.86.34 21
   Host: 192.168.86.34
 ```
 > Return the html code in terminal
+
+##### Basic_Protocol_Interaction
+
+```
+  nc 192.168.86.44 21
+  user baduser
+  pass P4ssw0rd!
+  stat
+  pwd
+  mkd baddirectory
+  cwd baddirectory
+  pwd
+  syst
+```
+
