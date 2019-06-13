@@ -2,7 +2,7 @@
 
 > Telnet not not safe but, you can use this for communication with server which serve text based request
 
-```
+```sh
 root@kali:~# telnet www.microsoft.com 80  <------ type this 1st
 Trying 184.30.58.30...
 Connected to e13678.dspb.akamaiedge.net.
@@ -33,7 +33,7 @@ root@kali:~# ^C
 
 ##### Basic_Tool_._Ping
 
-```
+```sh
 # ping google.com
 # ping -c 4 google.com
 # ping 172.30.42.255 <-- broadcast address [meaning sending packets to all host on the same network].
@@ -69,7 +69,7 @@ root@kali:~# ^C
 
 ``Example``
 
-```
+```sh
 site:microsoft.com filetype:xls windows 10
 inurl: ""
 intext: ""
@@ -88,19 +88,19 @@ intitle: ""
 
 ``output``
 
-```
+```sh
 CNAME star-mini.c10r.facebook.com 
 ```
 
 > match the IP Corrosponding to that IP using
 
-``
+```sh
 ping facebook.com
-``
+```
 
 Can use different DNS server Like
 
-```
+```sh
 dig @4.2.2.1 mx.microsoft.com
 ```
 
@@ -110,11 +110,13 @@ dig @4.2.2.1 mx.microsoft.com
 
 > host is use for quick lookup for me if all i looking for is either 'A' record or 'ptr' record. another utility is
 
-``nslookup www.microsoft.com``
+```sh 
+nslookup www.microsoft.com
+```
 
 > but you can do more complex things using ``nslookup`` for example
 
-```
+```sh
 nslookup microsoft.com 4.2.2.1
 ```
 
@@ -144,26 +146,26 @@ nslookup microsoft.com 4.2.2.1
 
 > how to actually capture packets
 
-```
+```sh
 tcpdump 
 ```
 > captures all the packet which coming and going through the network card of the current machine this happens because the network card is in promiscuous mode. which not only track outgoing packets but incoming too.
 
 > you can specifically capture your desire interface by running this cammand
 
-```
+```sh
 tcpdump -i eth0 host 172.30.42.1
 ```
 
 > 172.30.42.1 is your gayway address aka router
 
-```
+```sh
 tcpdump -i eth0 port 443
 ```
 
 > in this example we can see the https traffic because this is come across port 443.
 
-```
+```sh
 tcpdump -v -i eth0 port 443
 ```
 
@@ -177,7 +179,7 @@ tcpdump -v -i eth0 port 443
 
 > first capture the data 
 
-```
+```sh
 tcpdump -s 0 -w  output.pcap
 ```
 
@@ -192,23 +194,23 @@ you can use Ctrl + C to kill the terminal after few second of running the above 
 
 > able to intract with sevices. because you wanna pull out the banners which application provides. banners will give you the information about a specific appication. that is running on a specific port . and this may give you version information
 
-```
+```sh
 telnet 192.168.86.34 21
 ```
 
-```
+```sh
 ctrl + ] -> exit 
 ```
 
 > netcat is good for listening and UDP Protocal, this below cammand will do exactily the same this what telnet did. but more powerfull than `telnet`
 
-```
+```sh
 nc -l 192.168.86.34 21
 ```
 
 ##### Basic_Protocol_Interaction_-_HTTP
 
-```
+```sh
   nc 192.168.86.34 80
   HEAD / HTTP/1.1
   Host: 192.168.86.34
@@ -216,7 +218,7 @@ nc -l 192.168.86.34 21
 
 ``or``
 
-```
+```sh
   nc 192.168.86.34 80
   GET / HTTP/1.1
   Host: 192.168.86.34
@@ -225,7 +227,7 @@ nc -l 192.168.86.34 21
 
 ##### Basic_Protocol_Interaction
 
-```
+```sh
   nc 192.168.86.44 21
   user baduser
   pass P4ssw0rd!
